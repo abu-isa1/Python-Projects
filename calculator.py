@@ -41,6 +41,3 @@ while True:
 
 
 
-#teaching method
-#mindset
-#reality
