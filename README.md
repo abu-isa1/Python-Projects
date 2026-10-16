@@ -1,46 +1,53 @@
-# Python Projects
+# Interactive Command-Line Calculator
 
-A collection of Python projects I build while learning programming and improving my problem-solving skills.
+A Python command-line calculator that performs arithmetic operations and lets users continue calculating with the previous result.
 
-## Projects
+## Features
 
-### 1. Command-Line Calculator
+- Addition, subtraction, multiplication, and division
+- Floor division and modulo
+- Interactive terminal input
+- Chained calculations using the previous result
+- Exit commands using `quit`
 
-A simple calculator that runs in the terminal. It allows users to perform calculations and continue working with the previous result.
+## Technical Implementation
 
-**Features**
-- Addition (`+`)
-- Subtraction (`-`)
-- Multiplication (`*`)
-- Division (`/`)
-- Floor division (`//`)
-- Modulo (`%`)
-- Continue calculations using the previous result
-- Type `quit` to exit an input prompt
+The program uses Python loops, conditional statements, numeric conversion, and user input to control the calculation flow.
 
 ## How to Run
 
-1. Install Python 3.
-2. Clone this repository:
+**Requirements:** Python 3
 
-   ```bash
-   git clone https://github.com/abu-isa1/Python-Projects.git
-   ```
+Clone the repository:
 
-3. Open the project folder in your terminal.
-4. Run the calculator file:
+```bash
+git clone https://github.com/abu-isa1/Python-Projects.git
+cd Python-Projects
+```
 
-   ```bash
-   python3 filename.py
-   ```
+Run the calculator:
 
-   Replace `filename.py` with the actual name of the calculator file.
+```bash
+python3 calculator.py
+```
+
+## Current Limitations
+
+Input validation and division-by-zero handling are areas for improvement.
+
+## Next Improvements
+
+- Handle invalid numeric input safely
+- Prevent division by zero
+- Improve the calculation and exit flow
+- Add automated tests
 
 ## Technologies
 
 - Python 3
-- VS Code
+- Git and GitHub
 
 ## About
 
-This repository documents my journey learning Python through practical projects and hands-on problem-solving.
+This project is part of my practical work in Python programming, with a focus on problem-solving and building interactive command-line tools.
+
